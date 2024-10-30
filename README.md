@@ -1,5 +1,5 @@
 # Gem Farm 💎
-_by Gemworks_
+_by Rabnail_
 
 Gem Farm is a collection of on-chain Solana programs for NFT ("gem" 💎) staking.
 
@@ -57,12 +57,12 @@ Transaction failed 0x1798
 ``` 
 The steps to take are as follows:
 - translate the 0x number into decimal (eg using [this](https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=0x66)) - eg 0x1798 becomes 6040
-- if the number is 6XXX, this is a custom error from the app. Go to errors.rs found [here](https://github.com/gemworks/gem-farm/blob/main/lib/gem_common/src/errors.rs) and find the error numbered 40 (the remainder of the decimal)
+- if the number is 6XXX, this is a custom error from the app. Go to errors.rs found [here](https://github.com/Rabnail/gem-farm/blob/main/lib/gem_common/src/errors.rs) and find the error numbered 40 (the remainder of the decimal)
 - any other number besides 6XXX means an anchor error - go [here](https://github.com/project-serum/anchor/blob/master/lang/src/error.rs) to decipher it
 
 # Docs ✏️
 
-Extensive documentation is available [here](https://docs.gemworks.gg/).
+Extensive documentation is available [here](https://docs.Rabnail.gg/).
 
 The answer you're looking for is probably there. Pls don't DM with random questions.
 
